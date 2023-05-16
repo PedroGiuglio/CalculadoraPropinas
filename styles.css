@@ -1,0 +1,75 @@
+body {
+  width: 100%;
+  height: 90vh;
+  background-image: url(imagenes/pexels-john-guccione-wwwadvergroupcom-3483098.jpg);
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: green;
+  height: 250px;
+  width: 400px;
+}
+
+.mainContainer h1 {
+  text-align: center;
+  color: white;
+}
+
+.contenedorNumeros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+label {
+  font-weight: bold;
+  color: white;
+  margin-left: 5px;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+.btn {
+  width: 250px;
+  height: 40px;
+}
+/*# sourceMappingURL=styles.css.map */
